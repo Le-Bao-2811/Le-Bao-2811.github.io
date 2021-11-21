@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #eee;
+}
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+}
+.container .header {
+    display: flex;
+    height: 300px;
+    background-color: teal;
+}
+.container .header > .header-left {
+    display: flex;
+    align-items: center;
+    width: 30%;
+}
+.container .header > .header-right {
+    width: 70%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+.container .header > .header-left > img {
+    display: block;
+    object-fit: cover;
+    width: 65%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.container .header > .header-right > div h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.container .header > .header-right > div h3 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 5px;
+}
+.container .header > .header-right > div .header-right-info p {
+    margin: 10px 0;
+}
+.header-right-info p i {
+    margin-right: 6px;
+}
+.cv-main-row {
+    display: flex;
+    color: #666;
+}
+.cv-main-row .col-left, .cv-main-row .col-right {
+    padding: 25px;
+}
+.cv-main-row .col-left {
+    width: 60%;
+}
+.cv-main-row .col-right {
+    width: 40%;
+}
+.col-left .col-left-title h1, .col-right .col-right-item-title h1 {
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+.col-left .col-left-title hr, .col-right .col-right-item-title hr {
+    height: 3px;
+    background-color: #666;
+}
+.col-left .col-left-contain {
+    padding: 20px 0;
+}
+.col-left .col-left-contain .col-left-coltain-item {
+    margin-bottom: 30px;
+}
+.col-left .col-left-contain .col-left-coltain-item h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+.col-left .col-left-contain .col-left-coltain-item p {
+    margin-bottom: 6px;
+    text-align: justify;
+    text-transform: uppercase;
+    color: #999;
+    font-weight: 500;
+}
+.col-left .col-left-contain .col-left-coltain-item p:last-child {
+    margin-bottom: 0;
+    text-transform: none;
+    color: #666;
+    font-weight: normal;
+}
+.col-right-item-contain p {
+    margin-top: 5px;
+    color: #222;
+    text-align: justify;
+    font-weight: 500;
+}
+.col-right-item {
+    margin-bottom: 30px;
+}
